@@ -3,7 +3,7 @@ require "jekyll-site-config"
 require "octokit"
 
 module JekyllGithubMeta
-  class Generator < Jekyll::Generate
+  class Generator < Jekyll::Generator
     def generate(site)
       client = Octokit::Client.new(:access_token => site.config["github_token"])
       user = client.user
