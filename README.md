@@ -1,3 +1,3 @@
-# Jekyll GitHub Portfolio
+# Jekyll GitHub Meta
 
-Generate jekyll portfolio from GitHub
+Add meta data from GitHub account to site config
