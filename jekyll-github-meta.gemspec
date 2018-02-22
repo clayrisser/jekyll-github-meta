@@ -15,6 +15,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency "jekyll", "~> 3.0"
   spec.add_dependency "octokit", "~> 4.8"
   spec.add_dependency "jekyll-site-config", "~> 0.1"
+  spec.add_dependency "faraday-http-cache", "~> 2.0"
   spec.add_development_dependency "rake", "~> 11.0"
   spec.add_development_dependency "rspec", "~> 3.5"
   spec.add_development_dependency "rubocop", "~> 0.52"
