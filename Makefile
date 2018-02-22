@@ -4,7 +4,7 @@ CWD := $(shell pwd)
 all: build
 
 .PHONY: start
-start: build
+start:
 	@bundle exec jekyll serve --verbose
 
 .PHONY: build
