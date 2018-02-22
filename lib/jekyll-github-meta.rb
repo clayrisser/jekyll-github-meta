@@ -1,5 +1,5 @@
-require "jekyll-github-meta/version"
-require "jekyll-github-meta/generator"
+require_relative "jekyll-github-meta/version"
+require_relative "jekyll-github-meta/generator"
 
 module JekyllGithubMeta
 end
